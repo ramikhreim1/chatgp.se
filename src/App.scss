@@ -1,0 +1,313 @@
+body {
+	height: 100%;
+	min-height: 100%;
+
+	#root {
+		height: 100%;
+		// display: flex;
+		// flex-direction: column;
+	}
+}
+
+html {
+	height: 100%;
+}
+
+// * {
+// 	font-size: 95%;
+// }
+
+pre {
+	word-break: break-word;
+	// white-space: pre-wrap;
+	/* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;
+	/* Mozilla, since 1999 */
+	white-space: -pre-wrap;
+	/* Opera 4-6 */
+	white-space: -o-pre-wrap;
+	/* Opera 7 */
+	word-wrap: break-word;
+	/* Internet Explorer 5.5+ */
+	// font-family: 'Questrial', sans-serif;
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 14px;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+	display: none;
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+@media screen and (min-width: 480px) {
+	.card:nth-child(7n + 1) {
+		grid-column: auto/span 2;
+		grid-row: auto/span 2;
+	}
+}
+
+.allmesafedc>div {
+	height: 100%;
+}
+
+.prompt::-webkit-scrollbar {
+	width: 5px;
+}
+
+.prompt::-webkit-scrollbar-thumb {
+	background-color: #666e75;
+	border-radius: 5px;
+}
+
+.dallecard:hover .dallecardpopup {
+	display: flex;
+}
+
+.font-robot {
+	font-family: 'Roboto', sans-serif;
+}
+
+.pricing-card {
+	background-image: url(./media/pricingLogo.png);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+@media screen and (max-width:600px) {
+	.pricing-card {
+		background-size: 180px;
+	}
+
+}
+
+.dark .bg-chatPrimary {
+	color: #444654;
+}
+
+.react-scroller>div::-webkit-scrollbar {
+	width: 0;
+}
+
+.react-scroller>button::before {
+	content: "\25BC";
+}
+
+.messagebox code {
+	color: white !important;
+	text-shadow: none !important;
+}
+
+
+.messagebox .black {
+	color: black !important;
+}
+
+.messagebox .token {
+	background: transparent !important;
+}
+
+.messagebox ol {
+	list-style: decimal;
+}
+
+
+// cutome checkbox
+.custom-checkbox-container .switch {
+	display: inline-block;
+	height: 22px;
+	position: relative;
+	width: 38px;
+}
+
+.custom-checkbox-container .switch input {
+	display: none;
+}
+
+.custom-checkbox-container .slider {
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: .4s;
+}
+
+.custom-checkbox-container .slider:before {
+	background-color: #fff;
+	bottom: 3px;
+	content: "";
+	height: 16px;
+	left: 4px;
+	position: absolute;
+	transition: .4s;
+	width: 16px;
+}
+
+.custom-checkbox-container input:checked+.slider {
+	background-color: #66bb6a;
+}
+
+.custom-checkbox-container input:checked+.slider:before {
+	transform: translateX(16px);
+}
+
+.custom-checkbox-container .slider.round {
+	border-radius: 34px;
+}
+
+.custom-checkbox-container .slider.round:before {
+	border-radius: 50%;
+}
+
+/* Tooltip text */
+.tooltip-text {
+	visibility: hidden;
+	position: absolute;
+	z-index: 2;
+	width: max-content;
+	color: white;
+	font-size: 12px;
+	background-color: #192733;
+	border-radius: 10px;
+	padding: 8px 10px;
+}
+
+.tooltip-text::before {
+	content: "";
+	position: absolute;
+	transform: rotate(45deg);
+	background-color: #192733;
+	padding: 5px;
+	z-index: 1;
+}
+
+.hover-text:hover .tooltip-text {
+	visibility: visible;
+}
+
+#top {
+	top: -40px;
+	left: -50%;
+}
+
+#top::before {
+	top: 80%;
+	left: 45%;
+}
+
+#bottom {
+	top: 25px;
+	left: -50%;
+}
+
+#bottom::before {
+	top: -5%;
+	left: 45%;
+}
+
+#left {
+	top: -8px;
+	right: 120%;
+}
+
+#left::before {
+	top: 35%;
+	left: 94%;
+}
+
+#right {
+	top: -8px;
+	left: 120%;
+}
+
+#right::before {
+	top: 35%;
+	left: -2%;
+}
+
+.hover-text {
+	position: relative;
+	display: inline-block;
+}
+
+.typing-blinker::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 8px;
+	height: 100%;
+	background: #000000;
+	opacity: 1;
+	display: inline-block;
+	animation: cursor-blink 500ms steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+
+#form-file-upload {
+	height: 16rem;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+#input-file-upload {
+	display: none;
+}
+
+#label-file-upload {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-width: 2px;
+	border-radius: 1rem;
+	border-style: dashed;
+	border-color: #cbd5e1;
+	background-color: #f8fafc;
+}
+
+#label-file-upload.drag-active {
+	background-color: #ffffff;
+}
+
+.upload-button {
+	cursor: pointer;
+	padding: 0.25rem;
+	font-size: 1rem;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	background-color: transparent;
+}
+
+.upload-button:hover {
+	text-decoration-line: underline;
+}
+
+#drag-file-element {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}

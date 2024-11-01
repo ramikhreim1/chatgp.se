@@ -1,0 +1,89 @@
+button[class^='react-scroll-to-bottom'] {
+    bottom: 120px;
+    z-index: 11;
+}
+
+
+button[class^='react-scroll-to-bottom']::before {
+    content: url(../media/downArrow.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+}
+
+.markDown {
+    overflow: auto;
+    width: -webkit-fill-available;
+}
+
+.markDown code:not(.code-inline) {
+    color: white !important;
+    background: none;
+    text-shadow: none !important;
+}
+
+.markDown .token {
+    background: transparent !important;
+}
+
+.markDown li {
+    list-style: decimal;
+}
+
+.markDown ol li,
+.markDown ol li>p,
+.markDown ol ol,
+.markDown ol ul,
+.markDown ul li,
+.markDown ul li>p,
+.markDown ul ol,
+.markDown ul ul {
+    margin: 0;
+}
+
+.markDown ol li {
+    margin-left: 4px;
+}
+
+/* .w-100-90 {
+    width: calc(100vw - 600px);
+} */
+
+@media screen and (max-width: 768px) {
+
+    .w-100-90 {
+        width: calc(100vw - 90px);
+    }
+
+    #sidebar_mob {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        max-width: 300px;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 10px 20px -4px #000;
+        pointer-events: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: opacity 0.3s ease, visibility 0.2s ease, transform 0.3s ease;
+    }
+
+    #sidebar_mob.show {
+        pointer-events: all;
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    #sidebar_mob>button {
+        display: flex;
+        position: absolute;
+        top: 10px;
+        right: -50px;
+        /* color: white; */
+    }
+}

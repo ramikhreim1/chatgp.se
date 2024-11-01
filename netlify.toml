@@ -1,0 +1,15 @@
+ [build]
+  command = "yarn install"
+  publish = "root/build"
+
+[[plugins]]
+  [context.production]
+  publish = "build/"
+  package = "netlify-plugin-node-14"
+  package = "@netlify/plugin-lighthouse"
+  environment = { NODE_VERSION = "14.17.6" }
+  environment = { NPM_VERSION = "6.14.15" }
+  environment = {PYTHON_VERSION = "2.7" }
+  
+[dev]
+  command = "npm start"

@@ -1,0 +1,23 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /my-profile/resetPassword/
+Disallow: /checkout/
+Disallow: /forgot-password/
+
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /login/
+Disallow: /signup/
+Disallow: /my-profile/resetPassword/
+Disallow: /checkout/
+Disallow: /forgot-password/
+Disallow: /en
+Disallow: /sv
+Disallow: /saas

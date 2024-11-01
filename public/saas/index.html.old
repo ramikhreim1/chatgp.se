@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <meta name="description"
+        content="Start Your Own AI Buissness. Use ChatGPT and DALL-E for your website, AWS Cloud Solution powerd by OpenAI easy to depoy. ChatGPT GPT-4 with supper powers, designed to respond to latest internet text-based queries and generate real time data natural language responses.DALL·E 2 is an AI system that can create realistic images and art from a description in natural language." />
+    <meta name="keywords"
+        content="chatgpt, chat, gpt, open, ai, openai, chatbot, artificial, intelligence, online, free, language, DALL·E, dalle, dall-e," />
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TB8677B');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-607E0TS7J6" defer></script>
+    <script defer>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-607E0TS7J6');
+    </script>
+    <!-- Bing UET tag -->
+    <script>(function (w, d, t, r, u) { var f, n, i; w[u] = w[u] || [], f = function () { var o = { ti: "187032400", enableAutoSpaTracking: true }; o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad") }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () { var s = this.readyState; s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null) }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i) })(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script>
+
+    <title>ChatGPT-4 Advanced SaaS Tools by OpenAI</title>
+    <link rel="stylesheet" href="assets/css/style-s2.css?v1.2.0">
+</head>
+
+<body class="nk-body" data-menu-collapse="lg">
+    <div class="nk-app-root  bg-darker">
+        <header class="nk-header bg-darker is-dark has-mask">
+            <div class="nk-mask bg-pattern-dot-white-sm bg-blend-bottom"></div>
+            <div class="nk-header-main nk-menu-main is-transparent will-shrink on-dark ignore-mask">
+                <div class="container">
+                    <div class="nk-header-wrap">
+                        <div class="nk-header-logo">
+                            <a href="index.html" class="logo-link">
+                                <div class="logo-wrap">
+                                    <img class="logo-img logo-light" src="images/logo.png" srcset="images/logo2x.png 2x"
+                                        alt="">
+                                    <img class="logo-img logo-dark" src="images/logo-dark.png"
+                                        srcset="images/logo-dark2x.png 2x" alt="">
+                                </div>
+                            </a>
+                        </div><!-- .nk-header-logo -->
+                        <div class="nk-header-toggle">
+                            <button class="btn btn-light btn-icon header-menu-toggle">
+                                <em class="icon ni ni-menu"></em>
+                            </button>
+                        </div>
+                        <nav class="nk-header-menu nk-menu">
+                            <ul class="nk-menu-list me-auto">
+                                <li class="nk-menu-item has-dropdown">
+                                    <a href="#" class="nk-menu-link nk-menu-toggle">
+                                        <span class="nk-menu-text">Home</span>
+                                    </a>
+                                    <div class="nk-menu-dropdown">
+                                        <ul class="nk-menu-sub">
+
+                                            <li class="nk-menu-item">
+                                                <!--    <a class="nk-menu-link" href="index.html">Home S1</a> -->
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a class="nk-menu-link" href="/">Home</a>
+                                            </li>
+
+                                            <li class="nk-menu-item">
+                                                <!--   <a class="nk-menu-link" href="index-s3.html">Home S3</a> -->
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <!-- <a class="nk-menu-link" href="index-s4.html">Home S4 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a> -->
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <!--   <a class="nk-menu-link" href="index-s5.html">Home S5 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a> -->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="#howto" class="nk-menu-link">
+                                        <span class="nk-menu-text">How To</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="#usecase" class="nk-menu-link">
+                                        <span class="nk-menu-text">Use Cases</span>
+                                    </a>
+                                </li>
+                                <li class="nk-menu-item">
+                                    <a href="#pricing" class="nk-menu-link">
+                                        <span class="nk-menu-text">Pricing</span>
+                                    </a>
+                                </li>
+                                <!--  <li class="nk-menu-item has-dropdown">-->
+                                <!-- <a href="#" class="nk-menu-link nk-menu-toggle"> -->
+                                <!--   <span class="nk-menu-text">Pages</span> -->
+                                <!-- </a> -->
+                                <!--
+                                    <div class="nk-menu-dropdown nk-menu-mega">
+                                        <div class="nk-menu-mega-wrap">
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="about.html">About</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase.html">Use Case</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details.html">Use Case Details <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-s2.html">Use Case S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="usecase-details-s2.html">Use Case Details S2 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="pricing.html">Pricing</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="pricing-s2.html">Pricing S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="blog.html">Blog</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="blog-single.html">Blog Single</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="features.html">Features</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="contact.html">Contact</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" href="contact-s2.html">Contact S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="login.html">Login</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="login-s2.html">Login S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="register.html">Register</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="register-s2.html">Register S2</a>
+                                                </li>
+                                            </ul>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="reset.html">Reset</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="reset-s2.html">Reset S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="404.html">404 Error</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="404-s2.html">404 Error S2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="504.html">504 Error</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="504-s2.html">504 Error s2</a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a class="nk-menu-link" target="_blank" href="terms-condition.html">Terms &amp; Condition</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    -->
+                                </li>
+                            </ul><!-- .nk-menu-list -->
+                            <ul class="nk-menu-buttons flex-lg-row-reverse">
+                                <li><a href="https://chatgp.se/en/" class="btn btn-outline-primary rounded-pill">Get
+                                        Started</a></li>
+                                <li><a class="link link-light" href="https://chatgp.se/login">Sign in </a></li>
+                                <li><a class="link link-light"
+                                        href="https://www-chatgp-se.translate.goog/saas/?_x_tr_sl=en&_x_tr_tl=sv&_x_tr_hl=en&_x_tr_pto=wapp">Svenska</a>
+                                </li>
+                                <li><a class="link link-light"
+                                        href="https://www-chatgp-se.translate.goog/saas/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=en&_x_tr_pto=wapp">Translate</a>
+                                </li>
+
+
+
+
+                            </ul><!-- .nk-menu-buttons -->
+                        </nav><!-- .nk-header-menu -->
+                    </div>
+                </div>
+            </div>
+            <!-- .header -->
+            <div class="nk-hero py-xl-5 overflow-hidden has-shape">
+                <div class="nk-shape bg-shape-blur-b mt-n5 start-50 top-50 translate-middle"></div>
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-11 col-xl-10 col-xxl-9">
+                            <div class="nk-hero-content py-5 py-lg-6">
+                                <div class="title mb-3 mb-lg-4 display-6">
+                                    OpenAI GPT-4 API SaaS Tools, Use the power of ChatGPT for your business today!
+                                    <div class="text-gradient-primary"
+                                    <div class="text-gradient-primary"><span class="type-init"
+                                            data-strings='"Solution for companies", "Low code no code platform", "Easy to deploy on AWS or Azure", "Start your own AI business"'></span>
+                                    </div>
+                                </div>
+                                <h1 style="visibility: hidden; position: absolute;z-index: -1;">ChatGPT: Revolutionary
+                                    Saas Platform Chatbot
+                                    by
+                                    OpenAI, ChatGPTPlus, DALL·E 2, ChatGPT on WhatsApp</h1>
+                                <p class="lead px-md-8 px-lg-6 px-xxl-12 mb-4 mb-lg-5">Our OpenAI GPT-4 Clean Core with
+                                    EdgeReady Cloud and ChatGPT Plus is the perfect solution for companies, schools,
+                                    institutes, looking to modernize their Intranet or ERP Marketing systems. Leverage
+                                    the power of OpenAI ChatGPT Plus, a state-of-the-art AI language model, and
+                                    EdgeReady Cloud's low-code/no-code platform to optimize your operations and stay
+                                    ahead of the competition.</p>
+                                <ul class="btn-list btn-list-inline">
+                                    <li><a href="https://chatgp.se/tools"
+                                            class="btn btn-primary btn-lg rounded-pill"><span>Explore the tools for
+                                                free No credit card required</span></a></li>
+                                </ul>
+                                <!-- <li><a class="link link-light" href="https://s3.eu-north-1.amazonaws.com/chatgp.se/ChatGPT_0.12.0_x64_en-US.msi">Download ChatGPT Desktop App Free</a></li> -->
+                            </div>
+                            <div class="nk-hero-gfx position-relative">
+                                <video controls autoplay class="w-100 rounded-4"
+                                    src="https://s3.eu-north-1.amazonaws.com/chatgp.se/chatgpt+gpt4+whisper.mp4"
+                                    alt=""><!-- large banner image -->
+                                    <div
+                                        class="d-none d-md-block position-absolute top-0 end-100 me-5 me-lg-8 me-xl-12 mt-n3">
+                                        <div class="media media-2xl rounded-pill mx-auto">
+                                            <img src="images/avatar/illustration/a.jpg" alt="">
+                                        </div>
+                                        <div class="badge bg-dark p-2 mt-2 fw-normal text-white text-opacity-75">
+                                            Freelancer
+                                        </div>
+                                    </div><!-- floating user -->
+                                    <div class="d-none d-md-block position-absolute top-50 end-100 me-3 me-lg-4 mt-n5">
+                                        <div class="media media-2xl rounded-pill mx-auto">
+                                            <img src="images/avatar/illustration/b.jpg" alt="">
+                                        </div>
+                                        <div class="badge bg-dark p-2 mt-2 fw-normal text-white text-opacity-75">
+                                            Marketer
+                                        </div>
+                                    </div><!-- floating user -->
+                                    <div
+                                        class="d-none d-md-block position-absolute top-0 start-100 ms-5 ms-lg-7 ms-xl-10 mt-n7">
+                                        <div class="media media-2xl rounded-pill mx-auto">
+                                            <img src="images/avatar/illustration/c.jpg" alt="">
+                                        </div>
+                                        <div class="badge bg-dark p-2 mt-2 fw-normal text-white text-opacity-75">
+                                            Copywriter
+                                        </div>
+                                    </div><!-- floating user -->
+                                    <div
+                                        class="d-none d-md-block position-absolute top-50 start-100 ms-4 ms-lg-5 mt-n2">
+                                        <div class="media media-2xl rounded-pill mx-auto">
+                                            <img src="images/avatar/illustration/d.jpg" alt="">
+                                        </div>
+                                        <div class="badge bg-dark p-2 mt-2 fw-normal text-white text-opacity-75">Blogger
+                                        </div>
+                                    </div><!-- floating user -->
+                            </div>
+                            <div class="nk-hero-content py-6">
+                                <h6 class="lead-text">Trusted by 100 million users freelancers, marketing teams and
+                                    agencies.</h6>
+                                <ul class="d-flex flex-wrap justify-content-center pt-4 has-gap gy-3">
+                                    <li class="px-3 px-sm-5">
+                                        <a href="https://aws.amazon.com/marketplace/pp/prodview-fk4xbj3ch2e4o" target="_blank">
+                                            <img class="h-2rem" src="images/brands/72-b-white.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="px-3 px-sm-5">
+                                        <a href="https://appsource.microsoft.com/en-us/product/web-apps/gptechnologiesab1688113151654.chatgpt-gpt-4-saas" target="_blank">
+                                            <img class="h-2rem" src="images/brands/72-c-white.png" alt="">
+                                        </a>
+                                    </li>
+
+                                    <li class="px-3 px-sm-5">
+                                        <img class="h-2rem" src="images/brands/72-d-white.png" alt="">
+                                    </li>
+                                    <li class="px-3 px-sm-5">
+                                        <img class="h-2rem" src="images/brands/72-e-white.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="nk-pages">
+            <section class="section bg-darker is-dark section-top-0 has-shape">
+                <div class="nk-shape bg-shape-blur-a start-50 top-50 translate-middle"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-6 col-xxl-5">
+                                <h2 class="title">ChatGPT Plus-GPT-4 with super powers for your website</h2>
+                                <p class="lead">Like ChatGPT Plus but with internet access, references, AI image
+                                    generation and not limited to 2021, integrates with Google Search to create content
+                                    with the latest information. designed to save your orgnization time and effort by
+                                    making working with Gmail, Twitter, LinkedIn, and the web more productive.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row g-gs">
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-info bg-info bg-opacity-20 rounded-3">
+                                                    <em class="icon ni ni-bulb"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Powered by ChatGPT & Whisper API Turbo Plus Internet</h4>
+                                                <p>ChatGPT is great but limited to 2021 info Use our advanced AI GPT-4
+                                                    to Generate Facutual and Real-time Content, Interated with OpenAI Whisper ML-powered speech/video recognition directly in your ChatGPT.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-primary bg-primary bg-opacity-20 rounded-3">
+                                                    <em class="icon ni ni-cpu"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Advanced OpenAI GPT-4 Prompts Engineering Templates
+                                                </h4>
+                                                <p>Using our AI tools and pre-built template to create content briefs
+                                                    from URL, write and optimize content ads, all in one place.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-indigo bg-indigo bg-opacity-20 rounded-3">
+                                                    <em class="icon ni ni-spark"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title"> Chrome extension to generate entire emails and
+                                                    messages using ChatGPT AI. </h4>
+                                                <p>All sites are supported and enhanced support for Gmail, You do not
+                                                    need to spend hours to answer your emailsor write good content — let
+                                                    our advance AI Writer to get it done.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-success bg-success bg-opacity-20 rounded-3">
+                                                    <em class="icon ni ni-swap-alt"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Boost Your LinkedIn Presence with GPT-4</h4>
+                                                <p>Generate the perfect LinkedIn post in seconds, Generate thought
+                                                    provoking comments to drive engagement, Answer DMs quickly and
+                                                    efficiently.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-danger bg-danger bg-opacity-20 rounded-3">
+                                                    <div class=" d-flex align-items-end">
+                                                        <em class="icon ni ni-text"></em>
+                                                        <em class="icon half ms-n2 ni ni-text"></em>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">GPT-4 and LangChain and Vector DB solution</h4>
+                                                <p>Our ChatGPT alternative is a cutting-edge solution that makes the most out of the latest AI technologies. It features an impressive combination of GPT-4 and LangChain, providing you with a unique ability to create a personalized ChatGPT chatbot for multiple large PDF files.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-md-6 col-xl-4">
+                                <div class="card rounded-4 border-0 h-100">
+                                    <div class="card-body">
+                                        <div class="feature">
+                                            <div class="feature-media">
+                                                <div
+                                                    class="media media-middle media-xl text-warning bg-warning bg-opacity-20 rounded-3">
+                                                    <em class="icon ni ni-file-docs"></em>
+                                                </div>
+                                            </div>
+                                            <div class="feature-text">
+                                                <h4 class="title">Enhance Your Customer Support on Helpscout</h4>
+                                                <p>Provide quick, accurate, and personalized responses to support
+                                                    tickets, enhancing customer satisfaction
+                                                    Automatically generate concise summaries of complex issues to help
+                                                    your support team grasp the problem at hand.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div>
+            </section><!-- .section -->
+            <section class="section section-bottom-0 bg-white rounded-top-6" id="howto">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-5">
+                                <div
+                                    class="badge text-bg-primary-soft-outline text-uppercase text-tracking-1 rounded-pill px-3 py-2 mb-3">
+                                    How To</div>
+                                <h2 class="title">MERN Stack MongoDB, ExpressJS, ReactJS , NodeJS Built on top of OpenAI
+                                    API, Google authentication, and compatible with on-premise, AWS, Azure, or other
+                                    cloud hosting options</h2>
+                                <p class="lead">Launch and run a highly available, our OpenAI SaaS Platform application
+                                    on AWS with CloudFormation.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row gy-3 justify-content-center">
+                            <div class="col-xxl-12">
+                                <div class="bg-primary bg-opacity-10 p-5 p-lg-6 rounded-4">
+                                    <div
+                                        class="row g-gs flex-lg-row-reverse justify-content-between align-items-center">
+                                        <div class="col-lg-6 col-xl-5">
+                                            <div class="rounded-4 bg-gradient-primary bg-opacity-50 p-5 pb-0">
+                                                <div class="block-gfx">
+                                                    <img class="w-100 rounded-top-3 shadow-sm"
+                                                        src="images/gfx/process/users.jpg" alt="">
+                                                    <img class="w-100 rounded-top-3 shadow-sm"
+                                                        src="images/gfx/process/a.jpg" alt="">
+                                                        <img class="w-100 rounded-top-3 shadow-sm"
+                                                        src="images/gfx/process/dashboard.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-lg-6 col-xxl-5">
+                                            <div class="block-text pe-xl-5">
+                                                <img class="h-3rem mb-3" src="images/icon/text.svg" alt="">
+                                                <h3 class="title">Amazon Web Service Stack</h3>
+                                                <p>AWS CloudFormation is an infrastructure as a code tool that you can
+                                                    provision infrastructure on AWS. We offer CloudFormation Templated
+                                                    that deploy our application on aws a high-availability Node.js web
+                                                    app using AWS Elastic Beanstalk and Amazon DynamoDB. The sample app
+                                                    will deploy uses Node.js, Express, and a NoSQL database. Using
+                                                    Elastic Beanstalk, you can simply lunch the stack with our code and
+                                                    Elastic Beanstalk automatically handles the deployment, from
+                                                    capacity provisioning, load balancing, auto-scaling to application
+                                                    health monitoring. Elastic Beanstalk automatically scales the
+                                                    application up and down based on your application's specific need
+                                                    using easily adjustable Auto Scaling settings. Amazon DynamoDB is a
+                                                    fast and flexible NoSQL database service for all applications that
+                                                    need consistent, single-digit millisecond latency at any scale. It
+                                                    is a fully managed cloud database and supports both document and
+                                                    key-value store models. If you use the sample app, you will also use
+                                                    Amazon Simple Notification Service (SNS) to configure push
+                                                    notifications for your app.</p>
+                                                <ul class="list gy-3">
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Integrated
+                                                            Payment Solutions and Usage Controls. Our product comes with
+                                                            built-in integration with popular payment gateways like
+                                                            Stripe and Klarna, enabling seamless transactions for your
+                                                            business. The pay-as-you-go system allows your customers to
+                                                            only pay for the resources they use, providing flexibility
+                                                            and control over their costs. Additionally, our credit usage
+                                                            controls ensure that customers can manage and monitor their
+                                                            credits consumption effectively.</span></li>
+
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Custom
+                                                            Domain Integration: Offer an option for customers to use
+                                                            their custom domain (e.g., chat.companydomain.com) for your
+                                                            solution.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Scalability:
+                                                            Our solution Ensure can scale horizontally and vertically to
+                                                            accommodate growing customer needs. This may involve using
+                                                            auto-scaling groups, load balancers, and other AWS services
+                                                            to manage traffic and performance.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Full
+                                                            control and privacy of data, with reporting on user
+                                                            performance and time-saving metrics.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Unlimited
+                                                            users and centralized login integrated with Google login AD
+                                                            and MongoDB.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Customizable
+                                                            Prompt Interfacing Templates with a user-friendly
+                                                            interface.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Save
+                                                            up to 2 hours of work per day for employees, Students,
+                                                            Managers ..etc</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>AI-driven
+                                                            mentor trained on your custom knowledge base for real-time,
+                                                            24/7 support.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Web-based
+                                                            chat interface available on any website.</span></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .col -->
+                                    </div><!-- .row -->
+                                </div><!-- box -->
+                            </div><!-- .col -->
+                            <div class="col-xxl-12">
+                                <div class="bg-warning bg-opacity-10 p-5 p-lg-6 rounded-4">
+                                    <div
+                                        class="row g-gs flex-lg-row-reverse justify-content-between align-items-center">
+                                        <div class="col-lg-6 col-xl-5">
+                                            <div class="rounded-4  bg-gradient-warning bg-opacity-50 p-5 pb-0">
+                                                <div class="block-gfx">
+                                                    <a href="https://www.youtube.com/watch?v=O-ztjnJZu0U"
+                                                        target="_blank">
+                                                        <img class="w-100 rounded-top-3 shadow-sm"
+                                                            src="images/gfx/process/ChatGPT-gpt-4-chrome-extention.gif"
+                                                            alt="">
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-lg-6 col-xxl-5">
+                                            <div class="block-text pe-xl-5">
+                                                <img class="h-3rem mb-3" src="images/icon/edit.svg" alt="">
+                                                <h3 class="title"><a
+                                                        href="https://chrome.google.com/webstore/detail/chatgpt-for-google-ai-ema/aoalmmfccpahldepdohigicplnemkdne"
+                                                        target="_blank">ChatGPT Chrome Extension for Google and
+                                                        Gmail</a></h3>
+                                                <p>Write emails & messages, fix grammar mistakes, rephrase text, change
+                                                    writing tone, summarize text, and much more using ChatGPT AI. Works
+                                                    on all sites. Free to use.Use it in Google Docs, email clients,
+                                                    social media, and across the
+                                                    web. ChatGP.se for Chrome works across:
+                                                    - Google Docs - Gmail - Linkedin - Twitter - Facebook And more!.</p>
+                                                <ul class="list gy-3">
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Simply
+                                                            Highest quality responses that outcompete all other AI tools
+                                                            in the market</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Type
+                                                            All languages are supported"</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Facebook
+                                                            Works in all Chromium-based browsers, such as Chrome, Brave,
+                                                            and Edge</span></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .col -->
+                                    </div><!-- .row -->
+                                </div><!-- box -->
+                            </div><!-- .col -->
+                            <div class="col-xxl-12">
+                                <div class="bg-info bg-opacity-10 p-5 p-lg-6 rounded-4">
+                                    <div
+                                        class="row g-gs flex-lg-row-reverse justify-content-between align-items-center">
+                                        <div class="col-lg-6 col-xl-5">
+                                            <div class="rounded-4  bg-gradient-info bg-opacity-50 p-5 pb-0">
+                                                <div class="block-gfx">
+                                                    <img class="w-100 rounded-top-3 shadow-sm"
+                                                        src="images/gfx/process/c.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-lg-6 col-xxl-5">
+                                            <div class="block-text pe-xl-5">
+                                                <img class="h-3rem mb-3" src="images/icon/paper.svg" alt="">
+                                                <h3 class="title"><a
+                                                        href="https://s3.eu-north-1.amazonaws.com/chatgp.se/ChatGPT_0.12.0_x64_en-US.msi">ChatGPT
+                                                        Desktop Application (Mac, Windows and Linux)</a></h3>
+                                                <p>Introducing ChatGPT Desktop App: Multi-Platform, Text-to-Speech,
+                                                    Export History, and More!.</p>
+                                                <ul class="list gy-3">
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Generate
+                                                            Multi-platform: macOS Linux Windows.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>All
+                                                            Powerful menu items.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Generate
+                                                            Export ChatGPT history (PNG, PDF and Markdown).</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Generate
+                                                            Text-to-Speech.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Generate
+                                                            Automatic application upgrade notification.</span></li>
+                                                    <li><em
+                                                            class="icon text-info fs-5 ni ni-check-circle-fill"></em><span>Generate
+                                                            System tray hover window.</span></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- .col -->
+                                    </div><!-- .row -->
+                                </div><!-- box -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div>
+            </section>
+            <section class="section bg-white has-mask" id="usecase">
+                <div class="nk-mask bg-pattern-dot-sm bg-blend-around"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-7">
+                                <div
+                                    class="badge text-bg-primary-soft-outline text-uppercase text-tracking-1 rounded-pill px-3 py-2 mb-3">
+                                    Use Cases</div>
+                                <h2 class="title h1">Generate in seconds using AI</h2>
+                                <p class="lead px-xl-6">Let our AI assist with most time consuming to write blog
+                                    articles, product descriptions and more.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row justify-content-center">
+                            <div class="col-xxl-11">
+                                <div class="row gy-6 gx-5 text-center">
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-danger-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/articles.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Blog Post &amp; Articles</h3>
+                                                    <p>Generate optimized blog post and articles to get organic traffic
+                                                        - making you visible on the world. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-success-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/product-discription.svg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Product Description</h3>
+                                                    <p>Create a perfect description for your products to engage your
+                                                        customers to click and buy. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-purple-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/hand-mic.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Social Media Ads</h3>
+                                                    <p>Create ads copies for your social media - make an impact with
+                                                        your online marketing campaigns.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-info-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/praying-hand.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Product Benefits</h3>
+                                                    <p>Create a bullet point list of your product benefits that appeal
+                                                        to your customers to purchase.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-primary-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/stock-up.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Suggest Improvements</h3>
+                                                    <p>Need to improve your existing content? Our AI will rewrite and
+                                                        improve the content for you.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 col-lg-4">
+                                        <div class="h-100 px-xl-4 px-xxl-5">
+                                            <div class="feature">
+                                                <div class="feature-media">
+                                                    <div
+                                                        class="media media-middle media-xl media-border text-bg-indigo-soft-outline rounded-3">
+                                                        <img class="h-2rem" src="images/icon/website.svg" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="feature-text">
+                                                    <h3 class="title">Landing Page Content</h3>
+                                                    <p>Write very attractive headlines, slogans or paragraph for your
+                                                        landing page of your website.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div>
+                        </div>
+                    </div><!-- .section-content -->
+                </div>
+            </section>
+            <section class="section section-bottom-0 bg-light" id="pricing">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-6">
+                                <div
+                                    class="badge text-bg-primary-soft-outline text-uppercase text-tracking-1 rounded-pill px-3 py-2 mb-3">
+                                    Pricing</div>
+                                <h2 class="title h1">Plans for invidual / Company start free and fits with your needs
+                                </h2>
+                                <p class="lead">With our simple plans, Transform your business with our AI-powered SaaS
+                                    platform. Our simple plans supercharge your company's productivity or help you start
+                                    your own AI business, so you can focus on growing your business rather than coding.
+                                    With our user-friendly platform, you can easily create custom AI models and
+                                    solutions that drive results. Experience the power of AI and take your business to
+                                    the next level today!.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="pricing-toggle-wrap mb-4">
+                            <div class="h5 mb-0 pricing-toggle-text monthly">Monthly</div>
+                            <div class="mx-3">
+                                <button class="pricing-toggle" data-parent="pricing-toggle-wrap"
+                                    data-target="pricing-price-wrap">
+                                    <span class="pricing-toggle-ball"></span>
+                                </button>
+                            </div>
+                            <div class="h5 mb-0 pricing-toggle-text yearly position-relative"> Yearly <span
+                                    class="badge text-bg-success-soft fw-normal text-uppercase smaller rounded-pill position-absolute ms-n5 mb-2 mb-sm-0 ms-sm-3 translate-middle-sm-y start-100 bottom-100 bottom-sm-auto top-sm-50">Save
+                                    12%</span>
+                            </div>
+                        </div><!-- .pricing-toggle -->
+                        <div class="row g-gs">
+                            <div class="col-xxl-4 col-xl-4">
+                                <div class="pricing h-100 pricing-featured bg-gradient-primary">
+                                    <div
+                                        class="pricing-body h-100 p-5 pt-3 p-md-0 pt-md-0 p-xl-5 pt-xl-3 d-md-flex d-xl-block">
+                                        <div class="text-center p-md-5 p-xl-0 w-md-50 w-xl-100">
+                                            <div
+                                                class="badge bg-gradient-primary bg-opacity-20 gradient-angle-90 mb-4 px-3 py-2 rounded-pill small text-primary text-tracking-1">
+                                                <div class="p-1">Most Popurlar</div>
+                                            </div>
+                                            <h3 class="mb-3">Pro</h3>
+                                            <div class="pricing-price-wrap">
+                                                <div class="pricing-price monthly">
+                                                    <h3 class="display-5 mb-3">Contact Us <span
+                                                            class="caption-text text-muted"> / month /50 User</span>
+                                                    </h3>
+                                                </div>
+                                                <div class="pricing-price yearly">
+                                                    <h3 class="display-5 mb-3">Contact Us <span
+                                                            class="caption-text text-muted"> / yearly /50 Users</span>
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                            <p class="fw-bold text-primary">For Schools , Companies, content marketers,
+                                                bloggers, freelancers &amp; startups</p>
+                                            <div class="bg-light px-4 py-2 mb-4 smaller rounded-1">Try out all features
+                                                to determine what works best for you</div>
+                                            <div class="px-4">
+                                                <a href="https://chatgp.se/contact-Us#contact">
+                                                    <button class="btn btn-primary btn-block rounded-pill">Get
+                                                        Started</button>
+                                                </a>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="d-none d-md-block d-xl-none border-start h-100"></div>
+                                        <div class="pt-4 p-md-5 p-xl-0 pt-xl-4 w-md-50 w-xl-100">
+                                            <h5 class="fw-medium pb-1">Everything in Free, plus</h5>
+                                            <ul class="list gy-3">
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span><strong>DNS</strong> Custom Domain Integration: Offer an
+                                                        option for customers to use their custom domain (e.g.,
+                                                        chat.companydomain.com) for your solution.</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span><strong>Hosting</strong> Hosted in your AWS account, Full
+                                                        control and privacy of data DB Access, with reporting on user
+                                                        performance and time-saving metrics.</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Create Unlimited users and centralized login integrated with
+                                                        Google login AD and MongoDB.</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Advance Editor Tool</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Priority support</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Unlimited Logins</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Custom logo Branding</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Access New Features</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-xxl-4 col-xl-4 col-md-6 order-xl-first">
+                                <div class="h-100 pt-xl-6">
+                                    <div class="pricing h-100">
+                                        <div class="pricing-body h-100 p-5">
+                                            <div class="text-center">
+                                                <h3 class="mb-3">Free</h3>
+                                                <h3 class="display-5 mb-3">$0 <span class="caption-text text-muted"> /
+                                                        month</span></h3>
+                                                <p class="fw-bold">Access to OpenAI ChatGPT Plus tools and features for
+                                                    invidual to help you get a taste of SaaS AI GPT-4.</p>
+                                                <div class="bg-light px-4 py-2 mb-4 smaller rounded-1">Try out all
+                                                    features to determine what works best for you</div>
+                                                <div class="px-4">
+                                                    <a href="https://chatgp.se/ai/ChatGPT"
+                                                        class="btn btn-outline-primary btn-block rounded-pill">Start
+                                                        Chatting for Free</a>
+                                                </div>
+                                            </div>
+                                            <h5 class="fw-medium pt-4 pb-1">Give a try for free</h5>
+                                            <ul class="list gy-3">
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span><strong>100</strong> Credit</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span><strong>GPT-4</strong> Templates</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Powered by ChatGPT API Turbo Plus Internet</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>GPT-4 OpenAI tools</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Dall-E Image Generator</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Powered by ChatGPT API Plus and Dall-E on WhatsApp AI Assistant</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Train ChatGPT on your Data x PDF, DOC, CSV, DOCX</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>OpenAI Whisper integrated Audio and Video processing</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-xxl-4 col-xl-4 col-md-6">
+                                <div class="h-100 pt-xl-6">
+                                    <div class="pricing h-100">
+                                        <div class="pricing-body h-100 p-5">
+                                            <div class="text-center">
+                                                <h3 class="mb-3">Custom</h3>
+                                                <div
+                                                    class="media media-middle media-2xl bg-light rounded-pill mb-4 mt-3">
+                                                    <em class="icon ni ni-building"></em>
+                                                </div>
+                                                <p class="fw-bold">Start your own AI business contact us about you
+                                                    business needs our system can handle 500k Subscribers</p>
+                                                <div class="bg-light px-4 py-2 mb-4 smaller rounded-1">Take your
+                                                    business to the another level with custom package and support.</div>
+                                                <div class="px-4">
+                                                    <a href="https://chatgp.se/contact-Us#contact">
+                                                        <button
+                                                            class="btn btn-outline-primary btn-block rounded-pill">Request
+                                                            for Demo</button>
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                            <h5 class="fw-medium pt-4 pb-1">Everything in Pro, plus</h5>
+                                            <ul class="list gy-3">
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span><strong>Custom pricing</strong></span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Custom number of users/Unlimited Users</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Important note: Your prompts (inputs) and completions (outputs), your embeddings, and your training data:
+                                                        - are NOT available to other customers,
+                                                        - are NOT available to OpenAI,
+                                                        - are NOT used to improve OpenAI models,
+                                                        - are NOT used to improve any Microsoft or 3rd party products or services,
+                                                        - are NOT used for automatically improving Azure OpenAI models for your use in your resource (The models are stateless, unless you explicitly fine-tune models with your training data).
+                                                        Your fine-tuned Azure OpenAI models are available exclusively for your use. The Azure OpenAI Service is fully controlled by Microsoft; Microsoft hosts the OpenAI models in Microsoft’s Azure environment and the Service does NOT interact with any services operated by OpenAI (e.g., ChatGPT, or the OpenAI API).
+                                                        https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy
+                                                        </span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Training data provided by the customer is only used to fine-tune the customer's model and is not used by OpenAI to train or improve any models.</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Custom domain pointed to your domain name</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Custom Logo Branding</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Manage team member</span>
+                                                </li>
+                                                <li><em class="icon fs-4 ni ni-check-circle-fill text-info"></em>
+                                                    <span>Premium support</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div>
+            </section>
+            <section class="section bg-light">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-xl-8">
+                                <h2 class="title">Frequently Asked Questions</h2>
+                                <p class="lead">If you have any questions not answered in the FAQ, please do not
+                                    hesitate to contac us.</p>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row g-gs justify-content-center">
+                            <div class="col-xl-9 col-xxl-8">
+                                <div class="accordion accordion-separated accordion-plus-minus" id="faq-1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-1"> What is ChatGPT? </button>
+                                        </h2>
+                                        <div id="faq-1-1" class="accordion-collapse collapse show"
+                                            data-bs-parent="#faq-1">
+                                            <div class="accordion-body"> ChatGPT is an AI-based chatbot that uses the
+                                                GPT (Generative Pre-trained Transformer) architecture to generate
+                                                human-like responses to user inputs. It is developed by OpenAI, a
+                                                leading artificial intelligence research laboratory.
+
+                                                The GPT model used by ChatGPT is trained on a large corpus of text from
+                                                the internet and is designed to understand the context and meaning of
+                                                natural language input. This allows ChatGPT to provide more natural and
+                                                engaging interactions with users.
+
+                                                ChatGPT can be used for a wide range of applications, including customer
+                                                service, virtual assistants, and chat-based games. It has been trained
+                                                on a diverse range of topics and can generate responses on a variety of
+                                                subjects. ChatGPT is available as an API, which allows developers to
+                                                integrate it into their applications and services. </div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-2"> What ChatGPT used for? </button>
+                                        </h2>
+                                        <div id="faq-1-2" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body"> ChatGPT can be used for a variety of purposes,
+                                                such as:
+
+                                                Customer Service: ChatGPT can assist customers by providing quick and
+                                                accurate responses to their queries, which can help to improve customer
+                                                satisfaction and reduce support costs.
+
+                                                Virtual Assistants: ChatGPT can act as a virtual assistant that can help
+                                                users with tasks such as scheduling appointments, setting reminders, and
+                                                providing information on a variety of topics.
+
+                                                Educational Applications: ChatGPT can be used to create educational
+                                                chatbots that can help students learn new concepts and provide
+                                                personalized feedback on their progress.
+
+                                                Entertainment and Gaming: ChatGPT can be used to create chat-based games
+                                                and interactive stories that engage users in a fun and entertaining way.
+
+                                                Mental Health Support: ChatGPT can be used to provide mental health
+                                                support to individuals by engaging in conversations, providing
+                                                resources, and offering empathy and understanding.
+
+                                                Overall, ChatGPT can be used in any application that requires natural
+                                                language understanding and generation, making it a versatile and
+                                                valuable tool for developers and businesses. </div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-3"> How Is Our ChatGPT Trubo Plus different from
+                                                ChatGPT by OpenAI? </button>
+                                        </h2>
+                                        <div id="faq-1-3" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body"> Are you tired of ChatGPT's limitations? While
+                                                ChatGPT by OpenAI is an impressive AI chatbot, it has its drawbacks. For
+                                                instance, it doesn't crawl Google for the latest information on current
+                                                events, and its knowledge is restricted to things it learned before
+                                                2021. This can result in some of the answers being incorrect or
+                                                outdated.
+
+                                                But don't worry, ChatGP.se has you covered! Launched in Sweden and built
+                                                on top of OpenAI APIs, ChatGP.se is an AI platform with more superpowers
+                                                than ChatGPT. With a powerful connection to Google, it's able to stay
+                                                up-to-date on events and topics as they unfold, providing accurate and
+                                                reliable answers to any query. Unlike ChatGPT, ChatGP.se isn't limited
+                                                by its training data and can be updated frequently to ensure the most
+                                                accurate responses.
+
+                                                Say goodbye to incorrect or outdated answers and hello to a more
+                                                efficient and reliable AI chatbot. Choose ChatGP.se for all your chatbot
+                                                needs! </div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#faq-1-4"> Does ChatGP.se provide the latest trends and
+                                                news and powered by GPT-4? </button>
+                                        </h2>
+                                        <div id="faq-1-4" class="accordion-collapse collapse" data-bs-parent="#faq-1">
+                                            <div class="accordion-body"> ChatGPT Turbo Plus by Chatgp.se is the first AI
+                                                writing tool that combines the power of GPT-4 with ChatGPT. With its
+                                                advanced capabilities, ChatGPT Turbo Plus is a game-changer in the world
+                                                of AI chatbots, offering unparalleled accuracy and reliability. This
+                                                tool can help businesses automate their customer service and support,
+                                                saving time and resources while ensuring that customers receive prompt
+                                                and accurate responses.ChatGP.se is an incredibly powerful AI tool
+                                                linked to Google that provides real-time updates on events and topics.
+                                                With ChatGP.se, you can generate factual content instantly with just a
+                                                click, ensuring that you stay up-to-date on the latest information at
+                                                all times. This feature is particularly useful for businesses that need
+                                                to stay informed about the latest trends and news in their industry.
+                                            </div>
+                                        </div>
+                                    </div><!-- .accordion-item -->
+                                </div><!-- .accordion -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+        </main>
+        <!-- start page footer -->
+        <footer class="nk-footer">
+            <section class="section bg-light section-0 has-mask">
+                <div class="nk-mask bg-darker top-50"></div>
+                <div class="container container-xl">
+                    <div class="section-wrap bg-dark is-dark rounded-4 has-shape overflow-hidden">
+                        <div class="nk-shape bg-shape-blur-b start-50 top-50 translate-middle"></div>
+                        <div class="section-content p-4 p-sm-5 p-xl-7">
+                            <div class="row justify-content-between align-items-center g-5">
+                                <div class="col-xl-5 col-lg-6">
+                                    <div class="block-text">
+                                        <h6 class="overline-title text-primary">Boost your writing productivity</h6>
+                                        <h2 class="title">End writer’s Emails today</h2>
+                                        <p>It’s like having access to a team of copywriting experts writing powerful
+                                            emails for you in 1-click.</p>
+                                        <ul class="list list-row gx-3 gy-0">
+                                            <li><em class="icon fs-5 ni ni-check-circle-fill text-info"></em><span>No
+                                                    credit card required</span></li>
+                                            <li><em class="icon fs-5 ni ni-check-circle-fill text-info"></em><span>Cancel
+                                                    anytime</span></li>
+                                        </ul>
+                                        <ul class="btn-list btn-list-inline gy-0">
+                                            <li><a href="https://chatgp.se/tools"
+                                                    class="btn btn-lg btn-primary rounded-pill"><span>Get ChatGPT Chrome
+                                                        Extention for
+                                                        free</span><em class="icon ni ni-arrow-long-right"></em></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 align-self-end">
+                                    <div class="bg-white rounded-top-4">
+                                        <div
+                                            class="rounded-top-4 bg-gradient-primary bg-opacity-70 p-5 pb-0 mb-n4 mb-sm-n5 mb-xl-n7">
+                                            <div class="block-gfx">
+                                                <img class="w-100 rounded-top-3 shadow-sm"
+                                                    src="images/gfx/process/ChatGPT-gpt-4-chrome-extention.gif" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section bg-darker is-dark">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-xl-4 col-lg-3 me-auto">
+                            <div class="block-text">
+                                <a href="index.html" class="logo-link mb-4">
+                                    <div class="logo-wrap">
+                                        <img class="logo-img logo-light" src="images/logo.png"
+                                            srcset="images/logo2x.png 2x" alt="">
+                                        <img class="logo-img logo-dark" src="images/logo-dark.png"
+                                            srcset="images/logo-dark2x.png 2x" alt="">
+                                    </div>
+                                </a>
+                                <ul class="btn-list btn-list-inline g-1">
+                                    <!--       <li><a class="link-base" href="#"><em class="icon fs-3 ni ni-facebook-fill"></em></a></li> -->
+                                    <!--<li><a class="link-base" href="#"><em class="icon fs-3 ni ni-github-round"></em></a></li> -->
+                                    <!--<li><a class="link-base" href="#"><em class="icon fs-3 ni ni-linkedin-round"></em></a></li> -->
+                                    <!--<li><a class="link-base" href="#"><em class="icon fs-3 ni ni-youtube-round"></em></a></li> -->
+                                    <!--<li><a class="link-base" href="#"><em class="icon fs-3 ni ni-twitter-round"></em></a></li> -->
+                                </ul>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl-2 col-lg col-md-3 col-6">
+                            <div class="wgs">
+                                <h6 class="wgs-title">Tools</h6>
+                                <ul class="list gy-2 list-link-base">
+                                    <li><a class="link-base" href="https://chatgp.se/ai/ChatGPT">ChatGPT Turbo Plus
+                                            Internet</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/ai/business/email_from_url">GPT-4
+                                            Create Content from URL</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/ai/dalle" ChatGPT-Dall-E on
+                                            WhatsAPP</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/tools">OpneAI GPT-4 Tools</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/saas">Create your AI Buissness</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl-2 col-lg col-md-3 col-6">
+                            <div class="wgs">
+                                <h6 class="wgs-title">Resources</h6>
+                                <ul class="list gy-2 list-link-base">
+                                    <li><a class="link-base" href="https://chatgp.se/terms-condition">Terms and
+                                            Conditions</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/privacy-policy">Privecy Policy</a>
+                                    </li>
+                                    <li><a class="link-base" href="https://chatgp.se/FAQ">Guide and Tutorials</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/support">Request API access</a>
+                                    </li>
+                                    <li><a class="link-base" href="#pricing">pricing and subscription</a></li>
+                                    <li><a class="link-base" href="#">OpenAI GPT-4 SaaS For Business</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl-2 col-lg col-md-3 col-6">
+                            <div class="wgs">
+                                <h6 class="wgs-title">Company</h6>
+                                <ul class="list gy-2 list-link-base">
+                                    <li><a class="link-base" href="https://chatgp.se/aboutUs">About us</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/Cookie-Policy">Cookie Policy</a>
+                                    </li>
+                                    <li><a class="link-base" href="https://chatgp.se/my-profile/pricing">Non Company
+                                            Pricing</a></li>
+                                    <li><a class="link-base" href="https://chatgp.se/contact-Us#contact">Contact Us</a>
+                                    </li>
+                                    <li><a class="link-base" href="https://chatgp.se/ai/dalle">The Community
+                                            Showcase</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-xl-2 col-lg col-md-3 col-6">
+                            <div class="wgs">
+                                <h6 class="wgs-title">Use Case</h6>
+                                <ul class="list gy-2 list-link-base">
+                                    <li><a class="link-base" href="#">AI Writer</a></li>
+                                    <li><a class="link-base" href="#">AI Articel Writer</a></li>
+                                    <li><a class="link-base" href="#">Content Generator</a></li>
+                                    <li><a class="link-base" href="#">AI Content Writing</a></li>
+                                    <li><a class="link-base" href="#">Content Rewriter</a></li>
+                                    <li><a class="link-base" href="#">Blog Post Writer</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- .col -->
+                    </div>
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <!-- <div class="bg-darker is-dark">
+                <div class="container">
+                    <hr class="border-opacity-25 border-white m-0">
+                    <div class="py-5">
+                        <div class="row">
+                            <div class="col-md">
+                                <p class="mb-2 mb-md-0">&copy; 2023 CopyGenAI. Template by <a href="#" class="fw-bold text-white">Softnio</a>.</p>
+                            </div>
+                            <div class="col-md">
+                                <ul class="list list-row gx-4 justify-content-start justify-content-md-end">
+                                    <li><a href="#" class="link-primary">Terms</a></li>
+                                    <li><a href="#" class="link-primary">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </footer>
+        <!-- end page footer -->
+    </div>
+    <script src="assets/js/bundle.js?v1.2.0"></script>
+    <script src="assets/js/scripts.js?v1.2.0"></script>
+</body>
+
+</html>
