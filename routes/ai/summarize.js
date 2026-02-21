@@ -20,7 +20,7 @@ app.post('/personal/summarize', async (req, res, next) => {
 	prompt += inputRaw
 
 	const gptResponse = await openai.complete({
-		engine: 'curie',
+		model: 'gpt-4o-mini',
 		prompt,
 		maxTokens: 150,
 		temperature: 0.2,
@@ -64,6 +64,10 @@ app.post('/personal/summarize', async (req, res, next) => {
 		console.log(err.response)
 		console.log(err.data)
 		console.log(err.message)
+		return res.status(500).json({
+			success: false,
+			message: err.message || "Failed to summarize content"
+		})
 	}
 	
   })
