@@ -16,7 +16,7 @@ app.post('/:name', async (req, res, next) => {
         prompt += inputRaw;
 
         const completion = await openai.complete({
-            model: 'gpt-3.5-turbo-instruct',
+            model: 'gpt-4o-mini',
             prompt,
             maxTokens: 3000,
             n: 1,

@@ -32,7 +32,7 @@ app.post('/personal/explain', async (req, res, next) => {
 
   
 		const gptResponse = await openai.complete({
-			engine: 'davinci',
+			model: 'gpt-4o-mini',
 			prompt,
 			maxTokens: 128,
 			temperature: 0.5,

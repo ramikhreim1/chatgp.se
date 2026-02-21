@@ -8,7 +8,7 @@ app.post('/business/email_from_url',require("./middleware/generateEmailPrompt"),
     try {
         console.log(req.body,req.prompt);
         const gptResponse = await openai.complete({
-            engine: 'gpt-3.5-turbo-0613',
+            model: 'gpt-4o-mini',
             prompt: req.prompt,
             maxTokens: 777,
             temperature: 0,

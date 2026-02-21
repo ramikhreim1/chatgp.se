@@ -17,7 +17,7 @@ app.post('/sql', async (req, res, next) => {
 	prompt += inputRaw
 
 	const gptResponse = await openai.complete({
-		engine: 'gpt-3.5-turbo-0613',
+		model: 'gpt-4o-mini',
 		prompt,
 		maxTokens: 3000,
 		temperature: 0.7,
