@@ -121,9 +121,9 @@ app.post('/chat_gpt/:chatId', async (req, res, next) => {
 
     const numMessagesToInclude = 5; // Only include the last 5 messages in the chat history
     const startIndex = Math.max(0, pmessages.length - numMessagesToInclude); // Calculate the start index for the messages array
-    const messages = pmessages.slice(startIndex).map(msg => ({ role: msg.sender === "GPT" ? "system" : "user", content: msg.text })); // Construct the messages array
+    const messages = pmessages.slice(startIndex).map(msg => ({ role: msg.sender === "GPT" ? "assistant" : "user", content: msg.text })); // Construct the messages array
     console.log(`${new Date().toLocaleTimeString()}: ${req.user.email} provided prompt: `, inputRaw)
-    console.log(`${new Date().toLocaleTimeString()}: completion started, ${req.user.email} Using API key:`, apiKeys[currentIndex]);
+    console.log(`${new Date().toLocaleTimeString()}: completion started, ${req.user.email} Using API key:`, apiKeys[(currentIndex + openaiInstances.length - 1) % openaiInstances.length]);
     const completion = await openaiInstance.createChatCompletion({
       model: model || "gpt-3.5-turbo",
       messages,

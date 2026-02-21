@@ -64,6 +64,10 @@ app.post('/personal/summarize', async (req, res, next) => {
 		console.log(err.response)
 		console.log(err.data)
 		console.log(err.message)
+		return res.status(500).json({
+			success: false,
+			message: err.message || "Failed to summarize content"
+		})
 	}
 	
   })

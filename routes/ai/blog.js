@@ -9,14 +9,14 @@ app.post('/blog', async (req, res, next) => {
         const prompt = `This is a Chatbot that writes Swedish content that asked from a user:\n${content}`;
 
         // Make sure to use the method appropriate for your version of the OpenAI SDK
-        const gptResponse = await openai.createCompletion({
-            model: "gpt-3.5-turbo-instruct",
+        const gptResponse = await openai.complete({
+            model: "gpt-4o-mini",
             prompt: prompt,
-            max_tokens: 777,
+            maxTokens: 777,
             temperature: 0,
-            top_p: 1,
-            frequency_penalty: 0,
-            presence_penalty: 0,
+            topP: 1,
+            frequencyPenalty: 0,
+            presencePenalty: 0,
             stop: ["###", "<|endoftext|>", ],
         });
 
