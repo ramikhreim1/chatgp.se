@@ -1,12 +1,6 @@
 const express = require('express');
 
-////////////
-const { Configuration, OpenAIApi } = require("openai");
-
-const configuration = new Configuration({
-	apiKey: process.env.OPENAI_API_KEY,
-});
-const openai = new OpenAIApi(configuration);
+const openai = require("../../middlewares/openai");
 
 let app = express.Router()
 
@@ -27,10 +21,10 @@ app.post('/code/interpret', async (req, res, next) => {
 
 		prompt += inputRaw
 
-		const gptResponse = await openai.createCompletion({
-			model: 'gpt-3.5-turbo-instruct',
+		const gptResponse = await openai.complete({
+			model: 'gpt-4o-mini',
 			prompt,
-			max_tokens: 3000,
+			maxTokens: 3000,
 			n: 1,
 			stop: null,
 			temperature: 0.5,
